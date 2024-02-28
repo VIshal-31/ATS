@@ -1,0 +1,212 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@200;300&family=Raleway:wght@500&family=Roboto+Mono&display=swap');
+
+
+* {
+    
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+    background-color: #f5f6f7;
+    margin-bottom: 10vh;
+    width: 100%;
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: #212121;
+
+}
+
+button{
+
+    background-color:#d5dfe9;
+    color: #141318;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.textblue{
+    color:  #000000d3;;
+}
+/* bottom menu start */
+
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255); /* Background color of the menu */
+    color: #fff; /* Text color of the menu items */
+    position: fixed;
+    width: auto;
+    margin: 10px;
+    height: 8vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 7px 0;
+    border-radius: 50px;
+    box-shadow: 1px 2px 16px 0px #0000006b;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    color: #212121;
+    font-size: x-large;
+    text-align: center;
+    flex: 1;
+}
+
+.bottom-menu div {
+    height: 50px;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
+
+
+
+.bottom-menu a i {
+   font-size: 3vh;
+}
+
+
+
+.activeicon{
+    
+    background-color: #d5dfe9;
+    /* text-shadow: 0px 0px 5px #ffffff52; */
+    
+}  
+
+.activeicon a {
+    
+    color: #212121;
+    
+} 
+
+/* bottom menu end */
+
+/* mastercard */
+.mastercard{
+color: white;
+background-color: #000000;
+border-radius: 25px;
+padding: 30px;
+
+}
+
+/* Map section home start*/
+
+.mapsectionhome{
+
+    height: 67vh; /* Adjust this as needed */
+   
+    /* background-image: url('/home/harshad/Downloads/ATS/images/Google-Map.png'); */
+}
+
+.mapsectionride{
+
+  
+    height: 60vh; /* Adjust this as needed */
+    background-color: #fff;
+}
+
+
+
+.topsection{
+    padding: 15px 10px;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+    
+    
+}
+
+.section{
+
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.profilebuttonsection{
+
+    position: relative;
+    top: 250px;
+    
+   }
+
+/* Map section home end*/
+
+
+.engine{
+    
+    background-color: #fff;
+    border-radius: 17px;
+    
+}
+
+
+/* profile pic */
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background-image: none;
+}
+
+/* toggle style */
+
+
+
+#drawer {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Drawer initially off-screen */
+    width: 300px;
+    height: 100%;
+    background-color: #f0f0f0;
+    transition: right 0.3s;
+}
+
+
+.closed #closeDrawerButton {
+    display: none;
+}
+
+
+.togg{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #212121;
+}
+
+
+.togg i{
+    font-size: 18px;
+    padding-right: 12px;
+    color: #212121;
+}
